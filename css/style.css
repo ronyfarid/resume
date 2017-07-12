@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body{
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	font-family: 'Roboto Slab', serif;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+ul{
+	margin: 0;padding: 0;
+}
+img{
+	max-width: 100%;
+	display: block
+}
+#resume-box{
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+header{
+	overflow: hidden;
+	padding: 25px 0;
+	background: #ddd;
+	border-bottom: 5px solid orange;
+}
+.profile-img{
+    width: 10%;
+    float: left;
+    padding: 0 15px;
+}
+.profile-img img{
+    border-radius: 100%;
+}
+.name{
+    width: 60%;
+    float: left;
+    padding: 0 15px;
+}
+.name h1{
+    font-size: 2.5em;
+    margin: 0;
+}
+.name p{
+    margin: 0;
+} 
+.address{
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
+.address ul{}
+.address ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.address ul li i{}
+.resume-content{
+    overflow: hidden;
+    padding: 30px;
+    border-top: 1px solid gray;
+}
+.hidden-border{ 
+    border-top: 0 solid gray;
+}
+.heading{
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+}
+
+.heading h1{
+    font-size: 2em;
+    color: orange;
+    text-transform: uppercase;
+    margin: 0;
+}
+.heading-details{}
+.heading-details p{}
+.heading-details h2{
+    margin: 0;
+}
+.heading-details em{}
+.heading-details em sup{}
+.heading-details h4{
+    margin: 15px 0 5px;
+    font-size: 20px;
+}
+.heading-details ul{}
+.heading-details ul li{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    list-style: none;
+}
+.heading-details{
+    width: 70%;
+    float: left;
+    padding: 0 15px;
+}
+.heading-details p{
+    font-size: 18px;
+    margin: 0;
+}
+.table_section{
+    width: 100%;
+}
+.table_section tr{
+    /* border: 1px solid #444; */
+}
+.table_section tr td{
+    /* border: 1px solid #333; */
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+footer{
+	background: #222;
+	overflow: hidden;
+	overflow: hidden;
+	padding: 25px 0;
+}
+footer h1, footer p, footer .address ul li{color: #fff}  
+footer .name{width: 70% !important}
+ 
+ .hr{
+    width: 100%;
+    height: 5px;
+    background: orange;
+    float: left;
+    margin-top: 20px;
+}
